@@ -3,6 +3,7 @@ function sum(){
     let b: number=2
     let c :number=a+b;
     alert(c);
+    confirm("满意否");
    
 
 }
