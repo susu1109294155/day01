@@ -1,9 +1,9 @@
-function sum(){
-    let a: number=2
-    let b: number=2
-    let c :number=a+b;
-    alert(c);
-    confirm("满意否");
-   
+function jia():any{
+    var a:number = 2;
+    var b:number = 2;
+    var c:number=a+b;
+    var d:string = ""+c;
 
+    document.getElementById("sumid").innerHTML=d;
+   
 }
