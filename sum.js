@@ -1,7 +1,7 @@
-function sum() {
+function jia() {
     var a = 2;
     var b = 2;
     var c = a + b;
-    alert(c);
-    confirm("满意否");
+    var d = "" + c;
+    document.getElementById("sumid").innerHTML = d;
 }
